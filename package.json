@@ -1,0 +1,29 @@
+{
+  "name": "p5p5play-ts",
+  "version": "1.0.0",
+  "description": "P5+P5Play Typescript template",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build --no-source-maps",
+    "make:types": "tsc ./tools/gen-interface.ts && node ./tools/gen-interface.js"
+  },
+  "dependencies": {
+    "@types/p5": "^1.7.6",
+    "p5": "^1.11.5",
+    "p5play": "^3.27.1",
+    "planck-js": "^0.3.31"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.14.4",
+    "@types/node": "^22.14.1",
+    "parcel": "^2.14.4",
+    "typescript": "^5.5.2"
+  },
+  "keywords": [
+    "p5.js",
+    "p5play",
+    "typescript",
+    "template"
+  ]
+}
